@@ -28,7 +28,7 @@ def predict_single(model, scaler, input_data):
     return prediction, prob
 
 def main():
-    print("=== Network Intrusion Detection System (NIDS) ===")
+    print("= Network Intrusion Classification System (NICS) =")
     
     models = list_models()
     if not models:
